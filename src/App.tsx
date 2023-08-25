@@ -5,7 +5,7 @@ import { useAddressData } from './hooks/useAddressData';
 function App() {
   const { data } = useAddressData();
   return (
-    <div className='contatiner'>
+    <div className='container'>
       <h1>CControl</h1>
       <div className="card-grid">
         {data?.map(addressData => <Card
